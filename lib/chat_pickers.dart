@@ -196,7 +196,7 @@ class ChatPickers extends HookWidget {
                       color: _tabSelected.value == 1
                           ? Colors.white
                           : Colors.grey[500],
-                      icon: Icon(MdiIcons.gif),
+                      icon: Icon(MdiIcons.fileGifBox),
                       onPressed: () {
                         _pageController.animateToPage(1,
                             duration: Duration(milliseconds: 200),
